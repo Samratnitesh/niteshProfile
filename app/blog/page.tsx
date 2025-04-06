@@ -1,4 +1,4 @@
 const BlogPage = () => {
-  return <div>Coming soon...</div>;
+  return <div>It will be added soon</div>;
 };
 export default BlogPage;
