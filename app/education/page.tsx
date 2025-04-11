@@ -102,9 +102,9 @@ const EducationPage = () => {
       <CodeSnippet code={code.educationJourney} title="educationJourney.ts" />
 
       <Pager
-        prevHref="/experience"
+        prevHref="/skills-tools"
         nextHref="/contact"
-        prevTitle="Experience"
+        prevTitle="Skills"
         nextTitle="Contact"
       />
     </>
