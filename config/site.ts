@@ -17,6 +17,27 @@ export const siteConfig = {
   },
   bitinfonepal: "",
   projects: {
+    GitWay: {
+      title: 
+        "GitWay · AI-Powered Dev Assistant",
+      github: "https://github.com/Samratnitesh/GitWay",
+      description:
+        "GitWay is a full-stack SaaS platform that empowers developers and teams to collaborate effectively on software projects by leveraging AI. With seamless GitHub integration, GitWay analyzes your repositories and project meetings to provide intelligent insights, summaries, and search capabilities—all in one place.",
+      tags: [
+        "NextJs",
+        "ReactJs",
+        "Typescript",
+        "RAG",
+        "Supabase",
+        "Tailwind CSS",
+        "NeonDb",
+        "Clerk Authentication",
+        "Gemini API",
+        "GitHub-token",
+        "Stripe"
+      ],
+      live: "https://git-way-d5b7.vercel.app/",
+    },
     EventPanda: {
       title: 
         "EventPanda · Fullstack Event Monitoring SaaS",
@@ -65,7 +86,7 @@ export const siteConfig = {
       ],
       live: "https://react-blog-app-lilac.vercel.app/",
     },
-    
+
   },
 };
 

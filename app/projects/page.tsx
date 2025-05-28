@@ -36,7 +36,7 @@ const ProjectsPage = () => {
               <CardDescription>
                 <div className="flex gap-2">
                   {"live" in project && (
-                    <Link href={""} target="_blank">
+                    <Link href={project.live} target="_blank">
                       <Badge variant="default">Live</Badge>
                     </Link>
                   )}
